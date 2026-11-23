@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AT monogram">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#181c24" stroke="#394357" stroke-width="2.5" />
+  <path
+    d="M14 45 L23 19 L32 45 M17.5 36.5 H28.5"
+    fill="none"
+    stroke="#e8ecf4"
+    stroke-width="4.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M34 19 H50 M42 19 V45"
+    fill="none"
+    stroke="#e8ecf4"
+    stroke-width="4.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <circle cx="50" cy="43" r="3.2" fill="#f5d061" />
+</svg>
