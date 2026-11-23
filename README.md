@@ -11,6 +11,8 @@ Live site: [https://anhtuwally.github.io/](https://anhtuwally.github.io/)
 - `assets/css/style.css` — dark DCC-inspired stylesheet aligned with [pixelRef](https://anhtuwally.github.io/pixelRef/)
 - `assets/js/main.js` — responsive navigation menu script
 - `assets/img/favicon.svg` — geometric `AT` monogram favicon
+- `assets/img/pixelref-logo.png` — pixelRef project icon
+- `assets/img/linkedin.svg` — LinkedIn brand icon
 
 ## Local Preview
 

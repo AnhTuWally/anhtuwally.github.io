@@ -226,6 +226,14 @@ code {
   border-color: var(--accent);
 }
 
+.btn-icon {
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  display: block;
+}
+
 /* Hero */
 .hero {
   padding: 5rem 0 4rem;
@@ -363,6 +371,11 @@ code {
   margin-bottom: 0;
 }
 
+.about-prose strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
 .profile-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -413,6 +426,12 @@ code {
 }
 
 /* Grids & Cards */
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -420,6 +439,8 @@ code {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -451,6 +472,12 @@ code {
   margin: 0;
   color: var(--text-muted);
   font-size: 0.95rem;
+}
+
+.card .tag-list {
+  margin-top: auto;
+  padding-top: 1.15rem;
+  margin-bottom: 0;
 }
 
 /* Projects */
@@ -498,6 +525,43 @@ code {
   margin: 0 0 0.65rem;
   font-size: 1.35rem;
   letter-spacing: -0.015em;
+}
+
+.inline-project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
+  vertical-align: middle;
+}
+
+.inline-project-link:hover {
+  text-decoration: none;
+}
+
+.inline-project-link:hover span {
+  text-decoration: underline;
+}
+
+.project-icon-inline {
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  display: block;
+}
+
+.project-title-with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.project-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  flex-shrink: 0;
+  display: block;
 }
 
 .project-card p {
@@ -590,13 +654,20 @@ code {
 .footer-links {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 1.25rem;
+}
+
+.footer-links .project-icon-inline {
+  width: 16px;
+  height: 16px;
 }
 
 /* Responsive */
 @media (max-width: 900px) {
   .stats-strip,
   .about-grid,
+  .grid-2,
   .grid-3,
   .projects-grid {
     grid-template-columns: 1fr;
